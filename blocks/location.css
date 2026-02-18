@@ -1,0 +1,149 @@
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  max-width: 830px;  /*max ao invés de width: 830px */
+  width: 100%;       /* adicionar para responsividade */
+  margin: 92px 0 92px;
+  /* remover height: 482px - deixa o conteúdo definir sozinho */
+}
+
+.location__title{
+  max-width: 830px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  margin: 0;
+  padding: 0 0 40px;
+}
+
+.location__text{
+  max-width: 738px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.41;
+  margin: 0;
+}
+
+.location__artist-name{
+  max-width: 732px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.41;
+  text-align: right;
+  margin: 0;
+  padding: 10px 0 32px;
+}
+
+.location__paragraph{
+  max-width: 722px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  margin: 0;
+  padding: 0 10px 0 0;
+}
+
+/* Para telas menores que 1024px */
+@media screen and (max-width: 1024px){
+  .location{
+  max-width: 720px;
+  width: 100%;
+  margin: 92px auto 88px;
+}
+
+.location__title{
+  max-width: 707px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 1.08;
+  margin: 0;
+  padding: 0 13px 50px 0;
+}
+
+.location__text{
+  max-width: 720px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.41;
+  margin: 0;
+}
+
+.location__artist-name{
+  max-width: 720px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.41;
+  text-align: right;
+  margin: 0;
+  padding: 0 0 32px;
+}
+
+.location__paragraph{
+  max-width: 720px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  margin: 0;
+  padding: 0;
+}
+}
+
+/* Para telas menores que 544px */
+@media screen and (max-width: 544px) {
+  .location{
+  max-width: 288px;
+  width: 100%;
+  margin: 64px auto;
+}
+
+.location__title{
+  max-width: 288px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
+  margin: 0;
+  padding: 0 0 40px;
+}
+
+.location__text{
+  max-width: 288px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+.location__artist-name{
+  max-width: 288px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.41;
+  text-align: right;
+  margin: 0;
+  padding: 0 0 32px;
+}
+
+.location__paragraph{
+  max-width: 288px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  margin: 0;
+  padding: 0;
+}
+}

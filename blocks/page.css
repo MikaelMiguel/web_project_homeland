@@ -1,0 +1,26 @@
+.page{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: auto;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color:#2A2C2F;
+  color: #ffffff;
+}
+
+/* Para telas menores que 1024px */
+@media screen and (max-width: 1024px){
+  .page{
+  max-width: 768px;
+}
+}
+
+/* Para telas menores que 544px */
+@media screen and (max-width: 544px) {
+   .page{
+  max-width: 320px;
+}
+}

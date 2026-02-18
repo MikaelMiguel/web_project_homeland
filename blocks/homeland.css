@@ -1,0 +1,142 @@
+.homeland{
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  width: 100%;
+  margin: 90px 0 0;
+}
+
+.homeland__paragraph{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.homeland__title{
+  max-width: 720px;
+  width: 90%;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  text-align: center;
+  margin: 0;
+  padding: 0  0 32px;
+}
+
+.homeland__subtitle{
+  max-width: 720px;
+  width: 90%;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 0 132px 64px;
+}
+
+.homeland__image{
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  margin: 0;
+}
+
+/* Para telas menores que 1024px */
+@media screen and (max-width: 1024px){
+  .homeland{
+  margin: 0;
+}
+
+.homeland__paragraph{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 90px auto 30px;
+  max-width: 720px;
+  width: 100%;
+
+}
+
+.homeland__title{
+  max-width: 530px;
+  width: 90%;
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 1.05;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.homeland__subtitle{
+  max-width: 720px;
+  width: 90%;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 25px 0 0;
+}
+
+.homeland__image{
+  max-width: 768px;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  margin: 0;
+}
+
+}
+
+/* Para telas menores que 544px */
+@media screen and (max-width: 544px) {
+.homeland{
+  margin: 0;
+}
+
+.homeland__paragraph{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 40px;
+  max-width: 288px;
+  width: 100%;
+
+}
+
+.homeland__title{
+  max-width: 288px;
+  width: 90%;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.01;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.homeland__subtitle{
+  max-width: 288px;
+  width: 90%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.8;
+  text-align: center;
+  margin: 0;
+  padding: 16px 0 0;
+}
+
+.homeland__image{
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  margin: 0;
+}
+}

@@ -1,0 +1,35 @@
+.header{
+  margin: 34px auto 0px;
+
+}
+.header__logo{
+  max-width: 254px;
+  height: 100%;
+  margin: 0;
+}
+
+/* Para telas menores que 1024px */
+@media screen and (max-width: 1024px){
+  .header{
+  margin: 30px auto 0px;
+
+}
+.header__logo{
+  max-width: 254px;
+  width: 100%;
+  margin: 0;
+}
+}
+
+/* Para telas menores que 544px */
+@media screen and (max-width: 544px) {
+  .header{
+  margin: 20px auto 0px;
+
+}
+.header__logo{
+  max-width: 188px;
+  width: 100%;
+  margin: 0;
+}
+}
