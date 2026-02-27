@@ -49,7 +49,7 @@
   padding: 0 10px 0 0;
 }
 
-/* Para telas menores que 1024px */
+/*
 @media screen and (max-width: 1024px) {
   .location {
     max-width: 720px;
@@ -98,7 +98,7 @@
   }
 }
 
-/* Para telas menores que 544px */
+
 @media screen and (max-width: 544px) {
   .location {
     max-width: 288px;
@@ -146,4 +146,4 @@
     margin: 0;
     padding: 0;
   }
-}
+}*/
