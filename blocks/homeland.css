@@ -44,7 +44,7 @@
   margin: 0;
 }
 
-/* Para telas menores que 1024px */
+/*
 @media screen and (max-width: 1024px) {
   .homeland {
     margin: 0;
@@ -91,7 +91,7 @@
   }
 }
 
-/* Para telas menores que 544px */
+
 @media screen and (max-width: 544px) {
   .homeland {
     margin: 0;
@@ -136,4 +136,4 @@
     background-color: #000000;
     margin: 0;
   }
-}
+}*/
