@@ -5,7 +5,7 @@
   align-items: start;
   max-width: 830px; /*max ao invés de width: 830px */
   width: 100%; /* adicionar para responsividade */
-  margin: 92px 0 92px;
+  margin: 92px 0 0;
   /* remover height: 482px - deixa o conteúdo definir sozinho */
 }
 
