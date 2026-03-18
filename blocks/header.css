@@ -7,7 +7,6 @@
   margin: 0;
 }
 
-/*
 @media screen and (max-width: 1024px) {
   .header {
     margin: 30px auto 0px;
@@ -18,8 +17,7 @@
     margin: 0;
   }
 }
-
-
+/*
 @media screen and (max-width: 544px) {
   .header {
     margin: 20px auto 0px;
@@ -29,4 +27,5 @@
     width: 100%;
     margin: 0;
   }
-}*/
+}
+*/

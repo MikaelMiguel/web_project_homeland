@@ -15,4 +15,31 @@
   height: auto;
   margin: 0;
   padding: 0;
+  transition: filter 1s ease;
+}
+
+.photo-grid__item:hover {
+  filter: brightness(0.8);
+  box-shadow: 10px 10px 25px 0px #00000080;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 720px;
+    width: 100%;
+    margin: 64px auto 88px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 16px;
+    column-gap: 16px;
+  }
+
+  .photo-grid__item {
+    max-width: 352px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transition: filter 1s ease;
+  }
 }

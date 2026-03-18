@@ -82,13 +82,12 @@
   width: 100%;
   object-fit: cover;
   margin: 0;
-  transition: filter 0.3s ease; /*transição suave para o efeito de hover */
+  transition: filter 1s ease; /*transição suave para o efeito de hover */
 }
 
 .place__image:hover {
   box-shadow: 10px 10px 25px 0px #00000080;
   filter: brightness(0.8); /* 80% do brilho original */
-
 }
 
 /*link e button*/
@@ -139,4 +138,57 @@
   line-height: 163%;
   margin: 0;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto 90px;
+    row-gap: 72px;
+  }
+
+  .place__card {
+    max-width: 720px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .place__title {
+    max-width: 340px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 1.1;
+    margin: 0;
+    color: #ffffff;
+  }
+
+  /* Place authors list */
+  .place__authors {
+    max-width: 456px;
+    width: 100%;
+    list-style-type: none;
+    margin: auto 28px 0 40px;
+    padding: 0;
+  }
+
+  .place__artist {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 12%;
+    margin: 0;
+    padding: 0 0 8px 0;
+    color: #aaaaaa;
+  }
+
+  .place__artist-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+    color: #ffffff;
+  }
 }

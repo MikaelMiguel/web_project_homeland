@@ -42,9 +42,14 @@
   height: auto;
   background-color: #000000;
   margin: 0;
+  box-shadow: 10px 10px 25px 0px #00000080;
+  transition: filter 1.5s ease;
 }
 
-/*
+.homeland__image:hover {
+  filter: brightness(0.8);
+}
+
 @media screen and (max-width: 1024px) {
   .homeland {
     margin: 0;
@@ -90,8 +95,7 @@
     margin: 0;
   }
 }
-
-
+/*
 @media screen and (max-width: 544px) {
   .homeland {
     margin: 0;
@@ -136,4 +140,5 @@
     background-color: #000000;
     margin: 0;
   }
-}*/
+}
+*/
