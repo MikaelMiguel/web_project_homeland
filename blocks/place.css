@@ -167,27 +167,51 @@
 
   /* Place authors list */
   .place__authors {
-    max-width: 456px;
+    max-width: 352px;
     width: 100%;
-    list-style-type: none;
-    margin: auto 28px 0 40px;
+    margin: auto 0 0 28px;
     padding: 0;
   }
 
-  .place__artist {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    letter-spacing: 12%;
-    margin: 0;
-    padding: 0 0 8px 0;
-    color: #aaaaaa;
+  /* Place Body */
+  .place__body {
+    display: grid;
+    grid-template-areas:
+      "picture text"
+      "picture text";
+    column-gap: 13px;
+    margin: 48px 0 0;
+    padding: 0;
   }
 
-  .place__artist-name {
+  /* Place image */
+  .place__picture {
+    display: flex;
+    flex-direction: column;
+    grid-area: picture;
+    row-gap: 48px;
+  }
+
+  .place__image {
+    max-width: 460px;
+    width: 98%;
+    object-fit: cover;
+    margin: 0;
+    transition: filter 1s ease; /*transição suave para o efeito de hover */
+  }
+
+  /*link e button*/
+  .place__actions {
+    max-width: 355px;
+  }
+
+  /* Place text */
+  .place__text {
+    max-width: 352px;
+    width: 100%;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 163%;
     margin: 0;
     color: #ffffff;
   }
