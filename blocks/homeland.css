@@ -28,7 +28,6 @@
 .homeland__subtitle {
   max-width: 720px;
   width: 90%;
-  font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
@@ -37,11 +36,8 @@
 }
 
 .homeland__image {
-  max-width: 984px;
   width: 100%;
-  height: auto;
   background-color: #000000;
-  margin: 0;
   box-shadow: 10px 10px 25px 0px #00000080;
   transition: filter 1.5s ease;
 }
@@ -79,7 +75,6 @@
   .homeland__subtitle {
     max-width: 720px;
     width: 90%;
-    font-weight: 400;
     font-size: 30px;
     line-height: 1.2;
     text-align: center;
@@ -88,14 +83,11 @@
   }
 
   .homeland__image {
-    max-width: 768px;
     width: 100%;
-    height: auto;
     background-color: #000000;
-    margin: 0;
   }
 }
-/*
+
 @media screen and (max-width: 544px) {
   .homeland {
     margin: 0;
@@ -125,7 +117,6 @@
   .homeland__subtitle {
     max-width: 288px;
     width: 90%;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
     text-align: center;
@@ -134,11 +125,7 @@
   }
 
   .homeland__image {
-    max-width: 320px;
     width: 100%;
-    height: auto;
     background-color: #000000;
-    margin: 0;
   }
 }
-*/
