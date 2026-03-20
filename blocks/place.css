@@ -140,7 +140,7 @@
   color: #ffffff;
 }
 
-.place__actions--mobile {
+.place__actions-mobile {
   display: none;
   justify-content: center;
   align-items: center;
@@ -151,7 +151,7 @@
   box-shadow: 5px 5px 10px 0px #00000040;
 }
 
-.place__actions--mobile:hover {
+.place__actions-mobile:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
@@ -338,7 +338,7 @@
     text-decoration: none;
   }
 
-  .place__actions--mobile {
+  .place__actions-mobile {
     display: flex;
     justify-content: center;
     align-items: center;
