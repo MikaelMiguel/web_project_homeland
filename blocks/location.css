@@ -1,4 +1,5 @@
 .location {
+  grid-area: location;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,12 +50,11 @@
   padding: 0 10px 0 0;
 }
 
-/*
 @media screen and (max-width: 1024px) {
   .location {
     max-width: 720px;
     width: 100%;
-    margin: 92px auto 88px;
+    margin: 92px auto 0px;
   }
 
   .location__title {
@@ -97,7 +97,6 @@
     padding: 0;
   }
 }
-
 
 @media screen and (max-width: 544px) {
   .location {
@@ -146,4 +145,4 @@
     margin: 0;
     padding: 0;
   }
-}*/
+}

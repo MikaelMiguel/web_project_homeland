@@ -5,22 +5,9 @@
   align-items: center;
   min-width: 320px;
   max-width: 1280px;
+  width: 99%;
   margin: auto;
   font-family: "Inter", Arial, sans-serif;
   min-height: 100vh;
   color: #ffffff;
 }
-
-/*
-@media screen and (max-width: 1024px) {
-  .page {
-    max-width: 768px;
-  }
-}
-
-
-@media screen and (max-width: 544px) {
-  .page {
-    max-width: 320px;
-  }
-}*/
